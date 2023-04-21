@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- CDN de bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprendiendo bootstrap</title>
+    <!-- Links de fuentes ROBOTO -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+    <!-- Link de style.css-->
+    <link rel="stylesheet" href="../Bootstrap/assets/css/style.css">
+    <!-- Código Javascript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <!-- Font awesome -->
+    <script src="https://kit.fontawesome.com/af595bf087.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- Corresponde al nav -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-success">
+        <div class="container">
+          <a class="navbar-brand text-white" href="#"><b>CUPPON</b></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active text-white" aria-current="page" href="#">Features</a>
+              </li>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active text-white" aria-current="page" href="#">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active text-white" aria-current="page" href="#">Disabled</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <!-- Esta es la sección principal -->
+    <main>
+        <div class="container">
+            <div class="row row-cols-1 row-cols-md-3 mt-2 g-4">
+                <div class="col">
+                  <div class="card">
+                    <img src="../Bootstrap/assets/img/1cama.jpg" class="card-img-top" alt="Imagen de cama-colchón">
+                    <div class="card-body">
+                      <h5 class="card-title">Plumón minimalista para cama / Tamaño a elección</h5>
+                      <p class="card-text">Plumones Vitalic</p>
+                      <p class="card-text"> <i class="fa-solid fa-map-pin"></i> Avenida vitacura, Santiago de Chile</p>
+                      <p class="card-text text-end">$50.000 &nbsp; &nbsp; <font color="green" size="5pt"><b>$22.000</b></font></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="../Bootstrap/assets/img/2almuerzo.jpg" class="card-img-top" alt="Imagen de almuerzo">
+                    <div class="card-body">
+                      <h5 class="card-title">Entrada para compartir + plato de fondo + postre + bebestible</h5>
+                      <p class="card-text">Restaurante Escondibill</p>
+                      <p class="card-text"> <i class="fa-solid fa-map-pin"></i> Viña del mar, 5ta región, Chile</p>
+                      <p class="card-text text-end">$14.990 &nbsp; &nbsp; <font color="green" size="5pt"><b>$9.990</b></font></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="../Bootstrap/assets/img/3dentista.jpg" class="card-img-top" alt="Imagen de habitación dental">
+                    <div class="card-body">
+                      <h5 class="card-title">Evaluación integral + blanqueamiento dental + limpieza</h5>
+                      <p class="card-text">Clínica dental La Florida</p>
+                      <p class="card-text"> <i class="fa-solid fa-map-pin"></i> La Florida, Santiago de Chile</p>
+                      <p class="card-text text-end">$49.990 &nbsp; &nbsp; <font color="green" size="5pt"><b>$19.990</b></font></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="../Bootstrap/assets/img/4para2personas.jpg" class="card-img-top" alt="Imagen de almuerzo para 2 personas">
+                    <div class="card-body">
+                      <h5 class="card-title">Almuerzo para 2 personas + bebestibles (No incluye postre)</h5>
+                      <p class="card-text">Restobar Danilo's</p>
+                      <p class="card-text"> <i class="fa-solid fa-map-pin"></i> Coquimbo, 4ta región, Chile</p>
+                      <p class="card-text text-end">$19.990 &nbsp; &nbsp; <font color="green" size="5pt"><b>$12.990</b></font></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                      <img src="../Bootstrap/assets/img/5kidzania.jpg" class="card-img-top" alt="Imagen de kidzania">
+                      <div class="card-body">
+                        <h5 class="card-title">1, 2 o 4 tickets para Kidzania</h5>
+                        <p class="card-text">Kidzania / Entretenimiento para tus hijos</p>
+                        <p class="card-text"> <i class="fa-solid fa-map-pin"></i> Parque Araucano, Las Condes, Chile</p>
+                      <p class="card-text text-end">desde $9.990 &nbsp; &nbsp; <font color="green" size="5pt"><b>desde $5.990</b></font></p>
+                      </div>
+                </div>                   
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="../Bootstrap/assets/img/6saltodellaja.jpg" class="card-img-top" alt="Imagen de Saltos del Laja">
+                  <div class="card-body">
+                    <h5 class="card-title">Saltos del Laja: 1 o 2 noches de alojamiento a elección</h5>
+                    <p class="card-text">Grupo turístico del sur</p>
+                    <p class="card-text"> <i class="fa-solid fa-map-pin"></i> 8va Región de Chile</p>
+                      <p class="card-text text-end">$19.990 &nbsp; &nbsp; <font color="green" size="5pt"><b>$12.990</b></font></p>
+                  </div>
+                </div>
+        </div>
+    </main>
+    <!-- Esta es la sección de formulario -->
+    <section class="container-fluid mt-5 mb-5 p-4 bg-success text-center">
+        <form>
+            <h3 class="text-white">Recibe cupones en tu correo</h3>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label"></label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Nombres y apellidos">
+              <div id="emailHelp" class="form-text"></div>
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label"></label>
+              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Correo electrónico">
+            </div>
+            <br>
+            <button type="submit" class="btn btn-light">Enviar</button>
+          </form>
+    </section>
+    <!-- Este es el footer  -->
+    <footer class="text-center">
+        <h5><b>CUPPON</b></h5>
+        <p> <i class="fa-regular fa-copyright"></i> 2023 Cuppon Latam. Todos los derechos reservados.</p>
+    </footer>
+</body>
+
+</html>
